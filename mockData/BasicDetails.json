@@ -1,0 +1,39 @@
+{
+    "Age": {
+      "type": "range",
+      "min": 20,
+      "max": 45,
+      "step": 5
+    },
+    "Height": {
+      "type": "range",
+      "min": 64,
+      "max": 77,
+      "step": 1
+    },
+    "Profile Created By": {
+      "type": "select",
+      "option": ["self", "parent", "friend", "relative", "Any"]
+    },
+    "Marital Status": {
+      "type": "select",
+      "option": ["Never Married", "Divorced", "Widowed", "Separated"]
+    },
+    "Physical Status": {
+      "type": "select",
+      "option": ["Normal", "Physically Challenged"]
+    },
+    "Religion": {
+      "type": "select",
+      "option": ["Hindu", "Muslim", "Christian"]
+    },
+    "Caste": {
+      "type": "select",
+      "option": ["Vishwakarma", "Agamudaiyar", "Udaiyar", "Brahmin"]
+    },
+    "Subcaste": {
+      "type": "select",
+      "option": ["Kamalar", "Agamudaiyar", "Udaiyar", "Brahmin"]
+    }
+  }
+  

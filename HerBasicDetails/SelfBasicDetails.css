@@ -1,0 +1,75 @@
+/* Center the entire container and add a white background with shadow */
+.profile-container {
+    background-color: white; /* White background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15); /* Larger shadow with subtle transparency */
+    max-width: 600px; /* Restrict the width */
+    margin: 50px auto; /* Center it vertically and horizontally */
+    text-align: left; /* Ensure text alignment is to the left */
+}
+
+/* Title styling */
+.profile-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Container for the profile list */
+.profile-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Styling for each profile detail item */
+.profile-list-item {
+    display: flex;
+    justify-content: space-between; /* Align items to the sides */
+    align-items: center;
+    margin-bottom: 15px;
+    padding: 10px;
+       border-radius: 8px;
+   
+}
+
+.profile-icon {
+    background-color: #b57edc;
+    color: white;
+    border-radius: 30%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+    font-size: 1.2em;
+}
+
+.highlight {
+    color: orange;
+    font-weight: bold; 
+}
+ 
+
+/* Styling for profile info */
+.profile-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.profile-label {
+    font-weight: bold;
+    color: #333;
+    margin-right: 15px; /* Space between label and value */
+}
+
+.profile-value {
+    /* color: #666; */
+    text-align: right; /* Align values to the right */
+    flex: 1;
+}

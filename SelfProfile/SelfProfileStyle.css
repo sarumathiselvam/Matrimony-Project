@@ -1,0 +1,55 @@
+.profileContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.profileCard, .upgradeCard {
+    width: 300px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.photoURL {
+    padding-top: 10px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.membership {
+    font-weight: bold;
+}
+
+.upgrade-btn {
+    width: 90px;
+    height: 35px;
+    border-radius: 50px;
+    border: 2px solid #FF4D00;
+    color: #FF4D00;
+    background-color: #fff;
+    font-weight: bold;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.upgrade-btn:hover {
+    background-color: #FF4D00;
+    color: #fff;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.profile-actions {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 8px;
+}

@@ -1,0 +1,26 @@
+.form-container {
+  max-width: 800px; /* Adjusted width for better layout */
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.label {
+  font-weight: bold;
+}
+
+.custom-dropdown, .dropdown-select {
+  width: 100%; /* Ensure dropdowns take full width of the grid column */
+}
+
+.text-field {
+  width: 100%; /* Ensure text fields take full width of the grid column */
+}
+
+.radio-group {
+  width: 100%; /* Make radio groups take full width */
+}
+
+.checkbox-group {
+  width: 100%; /* Make checkbox groups take full width */
+}

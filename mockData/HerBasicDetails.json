@@ -1,0 +1,50 @@
+{
+    "data": {
+        "religious": {
+            "religion": "HINDU",
+            "subcaste": "VISHWAKARMA_GOLDSMITHS",
+            "gothram": null,
+            "gothramOthers": null,
+            "dosham": null,
+            "doshamType": [],
+            "birthTime": null,
+            "birthDate": "1998-07-16T00:00:00.000Z",
+            "horoscopeVisibility": "TO_ALL",
+            "birthPlace": {
+                "city": null,
+                "cityOthers": null,
+                "state": null,
+                "stateOthers": null,
+                "country": null,
+                "__typename": "Location"
+            },
+            "star": "PAID_MEMBER_ONLY",
+            "raasi": "PAID_MEMBER_ONLY",
+            "__typename": "ReligiousInfo"
+        },
+        "aboutMe": "My daughter is a software professional with a Master's degree currently working in private sector in Chennai. We come from a middle class, nuclear family background with liberal values.",
+        "education": "M_SC",
+        "employment": "PRIVATE",
+        "occupation": "SOFTWARE_PROFESSIONAL",
+        "income": "RS_4_LAKH",
+        "maskedPhoneNumber": "+91 96XXXXXXXX",
+        "location": {
+            "city": "CHENNAI",
+            "cityOthers": null,
+            "country": "INDIA",
+            "state": "TAMIL_NADU",
+            "stateOthers": null,
+            "__typename": "Location"
+        },
+        "commonHobbies": {
+            "hobbiesInterests": [],
+            "food": [],
+            "language": [],
+            "movies": [],
+            "music": [],
+            "reading": [],
+            "sports": [],
+            "__typename": "LifestyleInfo"
+        }
+    }
+}
